@@ -2,14 +2,14 @@
   <header>
     <nav>
       <h1>
-        <router-link to="/">Registration Form</router-link>
+        <base-button mode="outline" link to="/">Registration Form</base-button>
       </h1>
       <ul>
         <li>
-          <router-link to="/registraion">Registration</router-link>
+          <base-button link to="/registraion">Registration</base-button>
         </li>
         <li>
-          <router-link to="/showdetails">Show Details</router-link>
+          <base-button link to="/showdetails">Show Details</base-button>
         </li>
       </ul>
     </nav>
